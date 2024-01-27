@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height:  100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 236, 232);
+}
+.container h1{
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.contact-from{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(193, 191, 188, 0.56);
+    height: 300px;
+}
+
+.input-box{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: rgb(141, 138, 138);
+    border-radius: 10px;
+}
+.input-box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 20px;
+    height: 100%;
+    background-color: transparent;
+}
+.input-box input::placeholder{
+    color: white;
+}
+
+.textarea-box{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(141, 138, 138);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.textarea-box textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 20px;
+    height: 100%;
+    background-color: transparent;
+}
+.textarea-box textarea::placeholder{
+    color: white;
+}
+
+button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(52, 51, 51);
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
